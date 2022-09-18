@@ -25,6 +25,10 @@ h5 {
   font-size: 1.3rem;
 }
 
+.text-white {
+  color: white;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background: url(../assets/wave.svg);
