@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="login">
+      <div class="container">
+        <div class="image">
+          <img src="../assets/image2.svg" alt="" />
+        </div>
+        <div class="login-form">
+          <h1>Register</h1>
+          <form>
+            <div class="form-input">
+              <label for="nama">First Name</label>
+              <input type="text" placeholder="example ega" id="nama/>
+            </div>
+            <div class="form-input">
+              <label for="nama">Last Name</label>
+              <input type="text" placeholder="example gofur" />
+            </div>
+            <div class="form-input">
+              <label for="alamat">Address</label>
+              <input type="text" placeholder="example Malang" />
+            </div>
+            <div class="form-input">
+              <label for="nomor">Phone Number</label>
+              <input type="number" placeholder="example +62 85***" />
+            </div>
+            <div class="form-input">
+              <label for="email">Email</label>
+              <input type="email" placeholder="example egagofur@gmail.com" />
+            </div>
+            <div class="form-radio">
+              <h5 for="gender">Gender</h5>
+              <p>Man</p>
+              <input type="radio" name="gender" />
+              <p>Woman</p>
+              <input type="radio" name="gender" />
+            </div>
+            <h5>Country</h5>
+            <div class="select">
+              <select name="negara" id="negara">
+                <option selected disabled>Select Country</option>
+                <option value="pdf">Indonesia</option>
+                <option value="txt">Japan</option>
+                <option value="epub">China</option>
+                <option value="fb2">Rusia</option>
+                <option value="mobi">Korea</option>
+              </select>
+            </div>
+            <button onclick="alert('Register Succes')">
+              <a href="../index.html">Register</a>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
